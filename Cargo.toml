@@ -1,29 +1,22 @@
 [package]
-name = "template-rs"
+name = "oggoat"
 version = "0.0.0"
-edition = "2021"
-repository = "https://github.com/al8n/template-rs"
-homepage = "https://github.com/al8n/template-rs"
-documentation = "https://docs.rs/template-rs"
-description = "A template for creating Rust open-source repo on GitHub"
+edition = "2024"
+repository = "https://github.com/findit-studio/oggoat"
+homepage = "https://github.com/findit-studio/oggoat"
+documentation = "https://docs.rs/oggoat"
+description = "A pure-Rust Ogg container writer: streaming, constant memory, with the Opus, Vorbis, FLAC and VP8 mappings."
 license = "MIT OR Apache-2.0"
-rust-version = "1.73"
-
-[[bench]]
-path = "benches/foo.rs"
-name = "foo"
-harness = false
+rust-version = "1.95"
+keywords = ["ogg", "opus", "vorbis", "flac", "container"]
+categories = ["multimedia", "multimedia::audio", "multimedia::encoding", "parser-implementations", "no-std"]
 
 [features]
 default = ["std"]
 alloc = []
-std = []
+std = ["alloc"]
 
 [dependencies]
-
-[dev-dependencies]
-criterion = "0.8"
-tempfile = "3"
 
 [profile.bench]
 opt-level = 3
