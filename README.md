@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 
-A pure-Rust Ogg container writer: streaming, constant memory, with the Opus, Vorbis, FLAC, Theora and VP8 mappings.
+A pure-Rust Ogg container writer: streaming, constant memory, with the Opus, Vorbis, FLAC and VP8 mappings.
 
 [<img alt="github" src="https://img.shields.io/badge/github-findit--studio/oggoat-8da0cb?style=for-the-badge&logo=Github" height="22">][Github-url]
 <img alt="LoC" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fal8n%2F327b2a8aef9003246e45c6e47fe63937%2Fraw%2Foggoat" height="22">
@@ -19,7 +19,7 @@ A pure-Rust Ogg container writer: streaming, constant memory, with the Opus, Vor
 
 ## Overview
 
-Ogg is the container behind Opus, Vorbis, FLAC, Theora and VP8 streams, and a pure-Rust crate that writes it, together with those codec mappings, is the gap `oggoat` is meant to fill. The goal is a streaming writer that works in constant memory, with the codec mappings alongside the container. Reading is planned ([#1]).
+Ogg is the container behind Opus, Vorbis, FLAC and VP8 streams, and a pure-Rust crate that writes it, together with those codec mappings, is the gap `oggoat` is meant to fill. The goal is a streaming writer that works in constant memory, with the codec mappings alongside the container. Reading is planned ([#1]).
 
 ## Status
 
