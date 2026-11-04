@@ -1,5 +1,5 @@
 //! A pure-Rust Ogg container writer: streaming, constant memory, with the
-//! Opus, Vorbis, FLAC, Speex, Theora and VP8 mappings.
+//! Opus, Vorbis, FLAC, Theora and VP8 mappings.
 //!
 //! `oggoat` writes the Ogg container itself and carries the codec mappings
 //! alongside it. Reading is planned (#1).
